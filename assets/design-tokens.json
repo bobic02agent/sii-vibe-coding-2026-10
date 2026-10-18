@@ -1,0 +1,209 @@
+{
+  "source": {
+    "url": "https://sii.pl/",
+    "capturedAt": "2026-10-17",
+    "browser": "Google Chrome (headed), Playwright CLI",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "scope": "Observed homepage desktop styles; not an official Sii brand manual. Semantic error/success colors and responsive rules were not established."
+  },
+  "colors": {
+    "brand": {
+      "primary": "#0e6ee0",
+      "accent": "#47dde2",
+      "purple": "#4c38c6",
+      "mint": "#73ffc3",
+      "error": null,
+      "success": null
+    },
+    "background": {
+      "default": "#ffffff",
+      "light": "#f5f9fe",
+      "overlay": "linear-gradient(0deg, #020024, rgba(255,255,255,0.396))"
+    },
+    "text": {
+      "primary": "#2b2b2b",
+      "secondary": "#7f7f7f",
+      "muted": "#b7b7b7",
+      "onDark": "#ffffff",
+      "link": "#0e6ee0",
+      "outlineButton": "#2079e2"
+    }
+  },
+  "gradients": {
+    "brand": "linear-gradient(95deg, #4c38c6, #0e6ee0 50%, #47dde2)",
+    "accent": "linear-gradient(95deg, #0e6ee0, #47dde2 50%, #73ffc3)"
+  },
+  "typography": {
+    "fontFamily": {
+      "primary": "Lato, sans-serif"
+    },
+    "fontWeights": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700,
+      "heavy": 900
+    },
+    "fontSize": {
+      "xs": "12px",
+      "sm": "14px",
+      "base": "16px",
+      "button": "17px",
+      "md": "18px",
+      "lg": "22px",
+      "xl": "28px",
+      "section": "45px",
+      "statistic": "55px",
+      "hero": "145px"
+    },
+    "lineHeight": {
+      "navigation": "19px",
+      "button": "19px",
+      "cardHeading": "28px",
+      "section": "55px",
+      "statistic": "66px",
+      "hero": "145px"
+    }
+  },
+  "spacing": {
+    "1": "4px",
+    "2": "8px",
+    "3": "12px",
+    "4": "16px",
+    "5": "20px",
+    "6": "24px",
+    "7": "28px",
+    "8": "32px"
+  },
+  "spacingNotes": "4px is a suggested implementation base, not a recovered source token. Actual measured values include 5, 9, 10, 12, 20, 25, 29, 30 and 33px.",
+  "layout": {
+    "desktopContainer": "1140px",
+    "sectionSpacing": [
+      "40px",
+      "60px",
+      "100px",
+      "120px",
+      "160px"
+    ],
+    "whyUsPadding": "160px 0px 100px",
+    "newsPadding": "160px 0px 120px"
+  },
+  "borderRadius": {
+    "none": "0px",
+    "small": "4px",
+    "languageSelector": "5px",
+    "medium": "8px",
+    "pill": "20px",
+    "largePill": "42px",
+    "circle": "50%",
+    "newsletterInput": "35px 0px 0px 35px"
+  },
+  "components": {
+    "button": {
+      "primary": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "linear-gradient(95deg, rgb(76, 56, 198), rgb(14, 110, 224) 50%, rgb(71, 221, 226))",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "padding": "5px 20px",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderBottom": "0px none rgb(255, 255, 255)",
+        "borderRadius": "20px",
+        "height": "30px",
+        "gap": "normal"
+      },
+      "secondarySmall": {
+        "color": "rgb(14, 110, 224)",
+        "backgroundColor": "rgb(245, 249, 254)",
+        "backgroundImage": "none",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "18px",
+        "padding": "5px 20px",
+        "border": "1px solid rgb(14, 110, 224)",
+        "borderBottom": "1px solid rgb(14, 110, 224)",
+        "borderRadius": "20px",
+        "height": "30px",
+        "gap": "normal"
+      },
+      "outlineOnDark": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "19px",
+        "padding": "9px 33px 8px",
+        "border": "1px solid rgb(255, 255, 255)",
+        "borderBottom": "1px solid rgb(255, 255, 255)",
+        "borderRadius": "20px",
+        "height": "38px",
+        "gap": "normal"
+      },
+      "outline": {
+        "color": "rgb(32, 121, 226)",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "19px",
+        "padding": "9px 33px 8px",
+        "border": "1px solid rgb(32, 121, 226)",
+        "borderBottom": "1px solid rgb(32, 121, 226)",
+        "borderRadius": "20px",
+        "height": "38px",
+        "gap": "normal"
+      },
+      "newsletter": {
+        "color": "rgb(255, 255, 255)",
+        "backgroundColor": "rgb(43, 43, 43)",
+        "backgroundImage": "none",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "lineHeight": "19px",
+        "padding": "10px 22px",
+        "border": "0px none rgb(255, 255, 255)",
+        "borderBottom": "0px none rgb(255, 255, 255)",
+        "borderRadius": "20px",
+        "height": "39px",
+        "gap": "normal"
+      }
+    },
+    "header": {
+      "backgroundColor": "transparent",
+      "width": "1140px",
+      "height": "182px",
+      "padding": "0px",
+      "logoWidth": "102px"
+    },
+    "nav": {
+      "color": "#ffffff",
+      "fontSize": "16px",
+      "fontWeight": 600,
+      "padding": "10px 12px",
+      "lineHeight": "19px"
+    },
+    "input": {
+      "newsletter": {
+        "color": "rgb(127, 127, 127)",
+        "backgroundColor": "rgb(255, 255, 255)",
+        "backgroundImage": "none",
+        "fontSize": "14px",
+        "fontWeight": "400",
+        "lineHeight": "14px",
+        "padding": "9px 100px 10px 21px",
+        "border": "1px solid rgb(127, 127, 127)",
+        "borderBottom": "1px solid rgb(127, 127, 127)",
+        "borderRadius": "35px 0px 0px 35px",
+        "height": "38px",
+        "gap": "normal"
+      }
+    }
+  }
+}
